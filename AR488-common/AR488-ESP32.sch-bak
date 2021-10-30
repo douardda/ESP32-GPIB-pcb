@@ -25,17 +25,6 @@ F 3 "http://www.ti.com/lit/ds/symlink/sn75160b.pdf" H 5600 2150 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L misc:SN75162BDW U2
-U 1 1 6167818E
-P 5625 3650
-F 0 "U2" H 5625 4531 50  0000 C CNN
-F 1 "SN75162BDW" H 5625 4440 50  0000 C CNN
-F 2 "Package_SO:SOIC-24W_7.5x15.4mm_P1.27mm" H 5625 3370 50  0001 C CNN
-F 3 "http://www.ti.com/lit/ds/symlink/sn75162b.pdf" H 5575 4000 50  0001 C CNN
-	1    5625 3650
-	1    0    0    -1  
-$EndComp
-$Comp
 L Connector_Generic:Conn_02x12_Top_Bottom J1
 U 1 1 61684A14
 P 8100 2350
@@ -277,95 +266,95 @@ F 3 "~" H 3675 2175 50  0001 C CNN
 $EndComp
 Text GLabel 3475 1675 0    50   Input ~ 0
 D1
-Text GLabel 3475 1775 0    50   Input ~ 0
-D2
-Text GLabel 3475 1875 0    50   Input ~ 0
-D3
-Text GLabel 3475 1975 0    50   Input ~ 0
-D4
-Text GLabel 3475 2075 0    50   Input ~ 0
-D5
-Text GLabel 3475 2175 0    50   Input ~ 0
-D6
-Text GLabel 3475 2275 0    50   Input ~ 0
-D7
-Text GLabel 3475 2375 0    50   Input ~ 0
-D8
 Text GLabel 3975 1675 2    50   Input ~ 0
-REN_a
+D2
+Text GLabel 3475 1775 0    50   Input ~ 0
+D3
 Text GLabel 3975 1775 2    50   Input ~ 0
-IFC_a
+D4
+Text GLabel 3475 1875 0    50   Input ~ 0
+D5
 Text GLabel 3975 1875 2    50   Input ~ 0
-NDAC_a
+D6
+Text GLabel 3475 1975 0    50   Input ~ 0
+D7
 Text GLabel 3975 1975 2    50   Input ~ 0
-NRFD_a
-Text GLabel 3975 2075 2    50   Input ~ 0
-DAV_a
-Text GLabel 3975 2175 2    50   Input ~ 0
-EOI_a
+D8
 Text GLabel 3975 2275 2    50   Input ~ 0
-ATN_a
+REN_a
+Text GLabel 3475 2275 0    50   Input ~ 0
+IFC_a
 Text GLabel 3975 2375 2    50   Input ~ 0
-SRQ_a
-Text GLabel 3475 2475 0    50   Input ~ 0
-TE
+NDAC_a
+Text GLabel 3475 2375 0    50   Input ~ 0
+NRFD_a
 Text GLabel 3975 2475 2    50   Input ~ 0
-SC
+DAV_a
+Text GLabel 3475 2475 0    50   Input ~ 0
+EOI_a
 Text GLabel 3975 2575 2    50   Input ~ 0
+ATN_a
+Text GLabel 3475 2575 0    50   Input ~ 0
+SRQ_a
+Text GLabel 3975 2675 2    50   Input ~ 0
+TE
+Text GLabel 3475 2675 0    50   Input ~ 0
+SC
+Text GLabel 3975 2775 2    50   Input ~ 0
 DC
 $Comp
 L power:GND #PWR010
 U 1 1 6180B39E
-P 3975 2775
-F 0 "#PWR010" H 3975 2525 50  0001 C CNN
-F 1 "GND" H 3980 2602 50  0000 C CNN
-F 2 "" H 3975 2775 50  0001 C CNN
-F 3 "" H 3975 2775 50  0001 C CNN
-	1    3975 2775
-	1    0    0    -1  
+P 3975 2175
+F 0 "#PWR010" H 3975 1925 50  0001 C CNN
+F 1 "GND" H 3980 2002 50  0000 C CNN
+F 2 "" H 3975 2175 50  0001 C CNN
+F 3 "" H 3975 2175 50  0001 C CNN
+	1    3975 2175
+	0    -1   -1   0   
 $EndComp
 $Comp
 L power:GND #PWR03
 U 1 1 6180BA39
-P 3475 2775
-F 0 "#PWR03" H 3475 2525 50  0001 C CNN
-F 1 "GND" H 3480 2602 50  0000 C CNN
-F 2 "" H 3475 2775 50  0001 C CNN
-F 3 "" H 3475 2775 50  0001 C CNN
-	1    3475 2775
-	1    0    0    -1  
+P 3475 2175
+F 0 "#PWR03" H 3475 1925 50  0001 C CNN
+F 1 "GND" H 3480 2002 50  0000 C CNN
+F 2 "" H 3475 2175 50  0001 C CNN
+F 3 "" H 3475 2175 50  0001 C CNN
+	1    3475 2175
+	0    1    1    0   
 $EndComp
 $Comp
 L power:+5V #PWR09
 U 1 1 6180BF0B
-P 3975 2675
-F 0 "#PWR09" H 3975 2525 50  0001 C CNN
-F 1 "+5V" H 3990 2848 50  0000 C CNN
-F 2 "" H 3975 2675 50  0001 C CNN
-F 3 "" H 3975 2675 50  0001 C CNN
-	1    3975 2675
+P 3975 2075
+F 0 "#PWR09" H 3975 1925 50  0001 C CNN
+F 1 "+5V" H 3990 2248 50  0000 C CNN
+F 2 "" H 3975 2075 50  0001 C CNN
+F 3 "" H 3975 2075 50  0001 C CNN
+	1    3975 2075
 	0    1    1    0   
 $EndComp
 $Comp
 L power:+5V #PWR02
 U 1 1 6180CB7D
-P 3475 2675
-F 0 "#PWR02" H 3475 2525 50  0001 C CNN
-F 1 "+5V" H 3490 2848 50  0000 C CNN
-F 2 "" H 3475 2675 50  0001 C CNN
-F 3 "" H 3475 2675 50  0001 C CNN
-	1    3475 2675
+P 3475 2075
+F 0 "#PWR02" H 3475 1925 50  0001 C CNN
+F 1 "+5V" H 3490 2248 50  0000 C CNN
+F 2 "" H 3475 2075 50  0001 C CNN
+F 3 "" H 3475 2075 50  0001 C CNN
+	1    3475 2075
 	0    -1   -1   0   
 $EndComp
 $Comp
 L power:GND #PWR01
 U 1 1 6180D3A4
-P 3475 2575
-F 0 "#PWR01" H 3475 2325 50  0001 C CNN
-F 1 "GND" H 3480 2402 50  0000 C CNN
-F 2 "" H 3475 2575 50  0001 C CNN
-F 3 "" H 3475 2575 50  0001 C CNN
-	1    3475 2575
+P 3475 2775
+F 0 "#PWR01" H 3475 2525 50  0001 C CNN
+F 1 "GND" H 3480 2602 50  0000 C CNN
+F 2 "" H 3475 2775 50  0001 C CNN
+F 3 "" H 3475 2775 50  0001 C CNN
+	1    3475 2775
 	0    1    1    0   
 $EndComp
 $Comp
@@ -487,10 +476,10 @@ F 3 "~" H 2975 4250 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L power:GND #PWR?
+L power:GND #PWR0104
 U 1 1 6184381A
 P 3250 4300
-F 0 "#PWR?" H 3250 4050 50  0001 C CNN
+F 0 "#PWR0104" H 3250 4050 50  0001 C CNN
 F 1 "GND" H 3255 4127 50  0000 C CNN
 F 2 "" H 3250 4300 50  0001 C CNN
 F 3 "" H 3250 4300 50  0001 C CNN
@@ -498,10 +487,10 @@ F 3 "" H 3250 4300 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+5V #PWR?
+L power:+5V #PWR0105
 U 1 1 61843BAE
 P 3250 4125
-F 0 "#PWR?" H 3250 3975 50  0001 C CNN
+F 0 "#PWR0105" H 3250 3975 50  0001 C CNN
 F 1 "+5V" H 3265 4298 50  0000 C CNN
 F 2 "" H 3250 4125 50  0001 C CNN
 F 3 "" H 3250 4125 50  0001 C CNN
@@ -516,4 +505,39 @@ Wire Wire Line
 	3175 4250 3250 4250
 Wire Wire Line
 	3250 4250 3250 4300
+$Comp
+L misc:SN75162BDW U2
+U 1 1 6167818E
+P 5625 3650
+F 0 "U2" H 5625 4531 50  0000 C CNN
+F 1 "SN75162BDW" H 5625 4440 50  0000 C CNN
+F 2 "Package_SO:SOIC-24W_7.5x15.4mm_P1.27mm" H 5625 3370 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/sn75162b.pdf" H 5575 4000 50  0001 C CNN
+	1    5625 3650
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0106
+U 1 1 6180BA51
+P 6025 4000
+F 0 "#PWR0106" H 6025 3750 50  0001 C CNN
+F 1 "GND" H 6030 3827 50  0000 C CNN
+F 2 "" H 6025 4000 50  0001 C CNN
+F 3 "" H 6025 4000 50  0001 C CNN
+	1    6025 4000
+	0    -1   -1   0   
+$EndComp
+Text GLabel 6025 4100 2    50   Input ~ 0
+DC
+$Comp
+L power:+5V #PWR0107
+U 1 1 6180C427
+P 6025 4200
+F 0 "#PWR0107" H 6025 4050 50  0001 C CNN
+F 1 "+5V" H 6040 4373 50  0000 C CNN
+F 2 "" H 6025 4200 50  0001 C CNN
+F 3 "" H 6025 4200 50  0001 C CNN
+	1    6025 4200
+	0    1    1    0   
+$EndComp
 $EndSCHEMATC
