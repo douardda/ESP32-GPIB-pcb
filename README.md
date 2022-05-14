@@ -10,21 +10,22 @@ Doing so, the common GPIB board can be used with several Arduino/ESP32 boards.
 
 3D view of the common IEEE488 board:
 
-![](/assets/AR488-common.png)
+![](assets/AR488-common.png)
 
 3D view of the interface board for the ESP32-S2-saola:
 
-![](/assets/AR488-esp32-saola.png)
+![](assets/AR488-esp32-saola.png)
 
 3D view of the interface board for the Arduini nano:
 
-![](/assets/AR488-arduino-nano.png)
+![](assets/AR488-arduino-nano.png)
 
 Interface using a generic ESP32 Devkit-c board:
 
-![](/assets/IMG_20220312_161546.jpg)
-![](/assets/IMG_20220312_161648.jpg)
-![](/assets/IMG_20220312_161630.jpg)
+![](assets/IMG_20220312_161546.jpg)
+![](assets/IMG_20220312_161648.jpg)
+![](assets/IMG_20220312_161630.jpg)
+
 This design is licensed under the 
 [CC-BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) license.
 
