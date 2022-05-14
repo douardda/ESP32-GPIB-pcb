@@ -25,3 +25,8 @@ Interface using a generic ESP32 Devkit-c board:
 ![](/assets/IMG_20220312_161546.jpg)
 ![](/assets/IMG_20220312_161648.jpg)
 ![](/assets/IMG_20220312_161630.jpg)
+This design is licensed under the 
+[CC-BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) license.
+
+[![License: CC BY-SA 4.0](https://img.shields.io/badge/License-CC_BY--SA_4.0-lightgrey.svg)](https://creativecommons.org/licenses/by-sa/4.0/)
+
